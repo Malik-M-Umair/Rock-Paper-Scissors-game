@@ -40,5 +40,5 @@ function game(position){
             alert("COMPUTER IS WINNER,TRY NEXT TIME !!");
             window.location.reload();
         }
-    }, 4000);
+    }, 5000);
 }
