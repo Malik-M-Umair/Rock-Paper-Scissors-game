@@ -35,7 +35,7 @@
         font-style:italic;
         font-weight:bold;
         position: relative;
-        right: 5px;
+        right: 35px;
     }
     #rock{
         
@@ -87,7 +87,7 @@
         left: 20px;
     }
     .f{
-        border: 5px solid red;
+        
         position: relative;
         top: 100px;
         left: 10px;
