@@ -8,26 +8,29 @@
     <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
-<!-- <body oncontextmenu="return false"> -->
-    <h1 class="red">|Rock|&nbsp |Paper|&nbsp |Scessor|</h1>
+    <h1 class="red">|Rock|&nbsp;|Paper|&nbsp;|Scissors|</h1>
     <main>
-
         <div id="hand1">
             <img src="rock.png" alt="img" id="img1">
-            
         </div>
         <div id="hand2">
             <img src="rock.png" alt="img" id="img2">
-            
-        </main>
-    </div>
+        </div> <!-- This div should close here -->
+    </main>
     <div class="f">
+        <div class="g">
+            <div class="j">
 
-        <button type="submit" onclick="game(0)" id="rock">Rock✊</button>
-        <button type="submit" onclick="game(1)" id="paper">Paper🖐</button>
-        <button type="submit" onclick="game(2)" id="scessor">Scessor ✂️</button>
-        <button type="submit" onclick="game()" id="start">Start😈</button>
+                <button type="submit" onclick="game(0)" id="rock">Rock✊</button>
+            </div>
+            <button type="submit" onclick="game(1)" id="paper">Paper🖐</button>
+            <div class="h">
+
+                <button type="submit" onclick="game(2)" id="scissors">Scissors✂️</button>
+            </div>
+        </div>
+        <button type="submit" onclick="start()" id="start" class="rd">Start😈</button>
     </div>
-        <script   src="javascript.js"></script>
+    <script src="javascript.js"></script>
 </body>
 </html>
