@@ -91,10 +91,27 @@ button:hover{
     background-color: #081b29;
 
 }
-.rd{
+
+.f{
     position: relative;
-    right: 5000px;
+    left: 300px;
+    bottom: 200px;
+    
+    /* border: 5px solid red; */
+    
+
 }
+.d{
+    position: relative;
+    
+    left: 2000px;
+}
+.g{
+    position: relative;
+    top: 200px;
+}
+
+
 @keyframes button {
     0%{transform:scale(1.2);}
 }
