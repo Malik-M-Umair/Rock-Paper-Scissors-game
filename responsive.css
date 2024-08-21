@@ -62,8 +62,13 @@
         font-size: 30px;
         width: 220px;
         position: relative;
+        
         top: 40px;
-        left: 10px;
+        
+    }
+    .l{
+        position: relative;
+        right: 60px;
     }
     
     #scissors{
@@ -101,7 +106,7 @@
     .g{ position: relative;
         
         top: 200px;
-        right: 320px;
+        right: 380px;
 
     }
     .h{
@@ -110,7 +115,7 @@
     }
     .j{
         position: relative;
-        left: 40px;
+        left: 120px;
     }
     .z{
         position: relative;
